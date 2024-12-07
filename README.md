@@ -45,7 +45,8 @@ Execute the program using runserver command.
     </style>
 </head>
 <body>
-    <h1> <img src="sec logo.png" height= "100%" width="100%" class="center"></h1>
+    {% load static %}
+    <h1> <img src="{% static 'logo.png'%}" height= "100%" width="100%" class="center"></h1>
     <br>
     <h2 align="center">VASU VIGNESHWARAN  REF:24900796</h2>
     <table >
@@ -151,7 +152,8 @@ Execute the program using runserver command.
 </html>
 ~~~
 # OUTPUT
-![timetable](https://github.com/user-attachments/assets/dca2e747-3d08-4d68-90a7-9233a72fc7ce)
+![time](https://github.com/user-attachments/assets/c4c04ae1-37dd-4014-afaa-5cd699cbe9a3)
+
 
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
